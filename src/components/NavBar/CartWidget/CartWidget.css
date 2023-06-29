@@ -1,0 +1,9 @@
+svg {
+    color:rgba(255, 255, 255, 0.55);
+    cursor: pointer;
+}
+
+span {
+    color:rgba(255, 255, 255, 0.55);
+    margin-left: 5px;
+}
