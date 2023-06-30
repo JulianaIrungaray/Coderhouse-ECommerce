@@ -5,7 +5,7 @@ import Inicio from './components/NavBar/Inicio/Inicio.js';
 import Nosotros from './components/NavBar/Nosotros/Nosotros.js';
 import Categorias from './components/NavBar/Categorias/Categorias.js';
 import Contacto from './components/NavBar/Contacto/Contacto.js';
-import ItemListContainer from './components/NavBar/ItemListContainer/ItemListContainer.js';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer.js';
 
 
 function App() {
