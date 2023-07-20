@@ -1,7 +1,98 @@
-.logo-img {
-    width: 80px; 
-    height: auto; /* Permite que la altura se ajuste automáticamente */
+
+.container {
+  width: 100%;
+  padding-bottom: 200px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  font-size: 27px;
+}
+
+.nav__links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+.nav__links li {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.nav__link {
+  text-decoration: none;
+  color: whitesmoke;
+
+}
+
+.nav__links--right {
+  margin-left: 400px;
 }
 
 
-  
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav__links {
+    margin-top: 10px;
+  }
+
+  .nav__links--right {
+    margin: auto;
+  }
+  .nav__links ul {
+    flex-direction: column;
+  }
+
+  .nav__links li {
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
+
+  .container {
+    padding-bottom: 400px;
+  }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .nav__links {
+    font-size: 24px; /* Reducir el tamaño de fuente para pantallas medianas */
+  }
+
+  .nav__links--right {
+    margin-left: 100px; /* Ajustar el margen izquierdo para colocar el carrito en el lado derecho */
+  }
+
+  .nav__links li {
+    margin-right: 10px; /* Reducir el margen entre elementos */
+  }
+
+  .nav__link.logo img {
+    width: 300px; /* Ajustar el tamaño del logo para pantallas medianas */
+  }
+}
+

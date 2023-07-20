@@ -1,11 +1,12 @@
-section {
-  color: white;
-  text-shadow:  3px 3px rgba(50, 50, 70, 0.5);
-  background-color: rgb(96, 177, 119);
-
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
 }
 
-.navBg {
-  background-color: rgb(46, 70, 69);
-  font-size: 20px;
-}
+body {
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 49, 114),rgb(2, 143, 175), rgb(0, 0, 0)); 
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+  }

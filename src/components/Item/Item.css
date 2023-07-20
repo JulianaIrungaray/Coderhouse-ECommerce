@@ -1,0 +1,13 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px; /* Agrega un margen para separar los elementos */
+}
+
+.item img {
+  max-width: 100%;
+  margin-bottom: 10px; /* Agrega un espacio entre cada imagen y el título del producto */
+}

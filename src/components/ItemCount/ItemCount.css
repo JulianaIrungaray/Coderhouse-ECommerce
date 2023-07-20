@@ -1,0 +1,55 @@
+/* ItemCount.css */
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .counter span {
+    font-size: 18px;
+    font-weight: bold;
+    color: black; 
+  }
+  
+  .counter button {
+    background-color: #023a46;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .counter button:hover {
+    background-color: #29afb9;
+  }
+  
+  .counter span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .counter div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .counter button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  .counter button:disabled:hover {
+    background-color: #bdc3c7;
+  }
+  
+  .counter button:not(:disabled) {
+    transition: background-color 0.2s ease-in-out;
+  }
+  
