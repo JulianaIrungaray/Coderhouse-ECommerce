@@ -1,8 +1,11 @@
-export const CartWidget= () => {
+import { useCartContext } from "../../context/CartContext";
+
+const CartWidget= () => {
+    const {totalProducts} = useCartContext();
     return(
       <>
-      <i className="bi bi-bag-heart"></i>
-      <span> 0</span>
+        <i className="bi bi-bag-heart"></i>
+        <span>{totalProducts() || ''}</span>
       </>
 
     );

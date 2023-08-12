@@ -1,3 +1,6 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
 
 .container {
   width: 100%;
@@ -9,13 +12,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.607);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 9999;
-
 }
 
 .nav__links {
@@ -29,7 +31,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-
+  align-items: center;
 }
 
 .nav__links li {
@@ -42,13 +44,15 @@
 
 .nav__link {
   text-decoration: none;
-  color: whitesmoke;
-
+  color: #00FFFF;
 }
 
-.nav__links--right {
-  margin-left: 400px;
+.nav__link:hover {
+  text-decoration: none;
+  color: #ff00ea;
+  transform: translateY(-2px);
 }
+
 
 
 
@@ -77,22 +81,6 @@
     padding-bottom: 400px;
   }
 
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .nav__links {
-    font-size: 24px; /* Reducir el tamaño de fuente para pantallas medianas */
-  }
 
-  .nav__links--right {
-    margin-left: 100px; /* Ajustar el margen izquierdo para colocar el carrito en el lado derecho */
-  }
-
-  .nav__links li {
-    margin-right: 10px; /* Reducir el margen entre elementos */
-  }
-
-  .nav__link.logo img {
-    width: 300px; /* Ajustar el tamaño del logo para pantallas medianas */
-  }
 }
 

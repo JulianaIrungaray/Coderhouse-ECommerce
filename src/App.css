@@ -1,12 +1,6 @@
-*{
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-}
-
 body {
-    background: linear-gradient(rgb(0, 0, 0), rgb(0, 49, 114),rgb(2, 143, 175), rgb(0, 0, 0)); 
-    background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif;
-  }
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: radial-gradient(circle at bottom right, rgb(46, 243, 212),rgb(80, 17, 213),rgb(0, 16, 189),rgb(46, 243, 212));
+  color: #FFFFFF;
+}

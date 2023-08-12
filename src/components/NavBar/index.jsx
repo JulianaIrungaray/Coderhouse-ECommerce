@@ -9,10 +9,7 @@ const NavBar = () => {
         <div className="nav__links">    
           <ul>
             <li>
-              <NavLink className="nav__link logo" > <img alt='logo' src='./logo.png' width={350}></img> </NavLink>
-            </li>
-            <li>
-              <NavLink className="nav__link" to='/'>Inicio</NavLink>
+              <NavLink className="nav__link logo" to='/'> <img alt='logo' src='./logi.png' width={100}></img> </NavLink>
             </li>
             <li>
               <NavLink className="nav__link" to='./categoria/educativo'>Educativos</NavLink>
