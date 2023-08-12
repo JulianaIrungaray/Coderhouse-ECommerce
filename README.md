@@ -2,6 +2,8 @@
 
 Bienvenidos a mi proyecto de e-commerce de robots para el curso de React - Coderhouse. Mi nombre es Juliana Irungaray, y soy estudiante de Analista de Sistemas. Este proyecto ha sido creado con el uso de Create React App, una herramienta que facilita el inicio y desarrollo de aplicaciones en React.
 
+![CyberTronix](https://github.com/JulianaIrungaray/Coderhouse-ECommerce/assets/83477290/07524152-377d-4206-bbab-4901e900a46d)
+
 ## Scripts Disponibles
 
 In the project directory, you can run:
