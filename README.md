@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# E-Commerce de Robots - Proyecto de Juliana Irungaray
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenidos a mi proyecto de e-commerce de robots para el curso de React - Coderhouse. Mi nombre es Juliana Irungaray, y soy estudiante de Analista de Sistemas. Este proyecto ha sido creado con el uso de Create React App, una herramienta que facilita el inicio y desarrollo de aplicaciones en React.
 
-## Available Scripts
+## Scripts Disponibles
 
 In the project directory, you can run:
 
@@ -68,3 +68,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+¡Gracias por visitar mi repositorio!
